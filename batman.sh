@@ -1,5 +1,6 @@
 #! /bin/bash
 
+export BOT_ID=1;
 sudo modprobe batman-adv;
 sudo ifconfig wlan0 mtu 1528;
 sudo ifconfig wlan0 down;
