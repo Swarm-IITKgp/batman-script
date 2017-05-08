@@ -2,6 +2,8 @@
 
 * Clone the repository in the home directory.
 * Change the bot id in line `export BOT_ID=1;`.
+* Install batctl `sudo apt-get install batctl`.
+* Run `chmod +x batman.sh`
 * To automatically run the script on every startup execute these commands
 	* `$ crontab -e`
 	* `$ @reboot  $HOME/batman-script/batman.sh`
